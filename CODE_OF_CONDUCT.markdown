@@ -12,21 +12,21 @@ and orientation.
 
 Examples of behavior that contributes to a positive environment include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on "what is the right thing to do," not "who is right?"
-* Showing empathy towards other community members
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on "what is the right thing to do," not "who is right?"
+- Showing empathy towards other community members
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or
+- The use of sexualized language or imagery, and sexual attention or
   advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical address, without
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical address, without
   their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
@@ -53,7 +53,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD]. All complaints will be reviewed and investigated
+[Discord](https://discord.com/channels/1418536128612667474/1418536129296076822). All complaints will be reviewed and investigated
 promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -65,6 +65,7 @@ Community leaders are responsible for enforcing the Code of Conduct. They may
 include additional policies, which should be documented in this Code of Conduct.
 
 ### 1. Correction
+
 **Community Impact**: Use of inappropriate language or other behavior deemed
 unprofessional or unwelcome in the community.
 
@@ -73,6 +74,7 @@ clarity around the nature of the behavior and an explanation of why the
 conduct is not acceptable. No listed public apology is required.
 
 ### 2. Warning
+
 **Community Impact**: A violation through a single incident or an ongoing
 pattern of behavior that makes other community members uncomfortable.
 
@@ -83,6 +85,7 @@ implied or explicit threat of action on our part is not allowed in public or
 private spaces.
 
 ### 3. Temporary Ban
+
 **Community Impact**: A serious violation of community standards, including
 sustained inappropriate behavior, harassment of an individual, or aggression
 toward or disparagement of classes of individuals.
@@ -92,6 +95,7 @@ communication with the community for a specified period of time. No public or
 private interaction with the person, including through proxy accounts.
 
 ### 4. Permanent Ban
+
 **Community Impact**: Demonstrating a pattern of violation of community
 standards, including sustained inappropriate behavior, harassment, or causing
 harmful or hostile environments for any member.
