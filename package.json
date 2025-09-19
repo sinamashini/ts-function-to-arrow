@@ -1,0 +1,40 @@
+{
+  "name": "ts-function-to-arrow",
+  "version": "1.0.0",
+  "description": "A CLI tool to convert TypeScript function declarations to arrow functions",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-function-to-arrow": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinamashini/ts-function-to-arrow.git"
+  },
+  "homepage": "https://github.com/sinamashini/ts-function-to-arrow#readme",
+  "bugs": {
+    "url": "https://github.com/sinamashini/ts-function-to-arrow/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "refactor",
+    "arrow-function",
+    "cli"
+  ],
+  "author": "Sina Mashini",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^11.0.2",
+    "ts-morph": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
