@@ -6,7 +6,7 @@ export const printHelp = (): string => {
 ${chalk.bold("📝 Convert TypeScript function declarations to arrow functions")}
 
 ${chalk.cyan("Usage:")}
-  ${chalk.white("ts-to-arrow")} [options]
+  ${chalk.white("ts-function-to-arrow")} [options]
 
 ${chalk.cyan("Options:")}
   ${chalk.white("-d, --dir <directory>")}  ${chalk.gray(
@@ -26,16 +26,16 @@ ${chalk.cyan("Options:")}
   )}
 
 ${chalk.cyan("Examples:")}
-  ${chalk.white("ts-to-arrow")}                           ${chalk.gray(
+  ${chalk.white("ts-function-to-arrow")}                           ${chalk.gray(
     "# Process src/ directory"
   )}
-  ${chalk.white("ts-to-arrow -d lib")}                    ${chalk.gray(
+  ${chalk.white("ts-function-to-arrow -d lib")}                    ${chalk.gray(
     "# Process lib/ directory"
   )}
-  ${chalk.white("ts-to-arrow --dry-run")}                 ${chalk.gray(
+  ${chalk.white("ts-function-to-arrow --dry-run")}                 ${chalk.gray(
     "# Preview changes"
   )}
-  ${chalk.white("ts-to-arrow -d src --dry-run -v")}       ${chalk.gray(
+  ${chalk.white("ts-function-to-arrow -d src --dry-run -v")}       ${chalk.gray(
     "# Dry run with verbose output"
   )}
 
