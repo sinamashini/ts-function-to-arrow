@@ -42,7 +42,10 @@ program.on("command:*", () => {
   process.exit(1);
 });
 
+// CRITICAL: Parse args BEFORE accessing opts()
+program.parse(process.argv);
 const options = program.opts();
+
 const cliOptions: ConversionOptions = {
   directory: options.dir,
   dryRun: !!options.dryRun,
@@ -103,6 +106,6 @@ const main = async (): Promise<void> => {
     }
     process.exit(1);
   }
-}
+};
 
 main();
