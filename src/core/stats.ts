@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { ConversionStats } from "./types";
 
 export class ConversionTracker {
@@ -26,29 +27,21 @@ export class ConversionTracker {
   printSummary(dryRun: boolean): void {
     console.log("\n📊 Conversion Summary:");
     console.log(
-      `  ${require("chalk").green("✅ Converted functions:")} ${
-        this.stats.converted
-      }`
+      `  ${chalk.green("✅ Converted functions:")} ${this.stats.converted}`
     );
     console.log(
-      `  ${require("chalk").yellow("⏭️  Skipped functions:")} ${
-        this.stats.skipped
-      }`
+      `  ${chalk.yellow("⏭️  Skipped functions:")} ${this.stats.skipped}`
     );
     console.log(
-      `  ${require("chalk").blue("📁 Files processed:")} ${
-        this.stats.filesProcessed
-      }`
+      `  ${chalk.blue("📁 Files processed:")} ${this.stats.filesProcessed}`
     );
 
     if (dryRun) {
       console.log(
-        require("chalk").yellow(
-          "\n👀 Dry run complete - no files were modified"
-        )
+        chalk.yellow("\n👀 Dry run complete - no files were modified")
       );
     } else {
-      console.log(require("chalk").green("\n🎉 Conversion complete!"));
+      console.log(chalk.green("\n🎉 Conversion complete!"));
     }
   }
 }
