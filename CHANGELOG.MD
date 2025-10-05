@@ -1,6 +1,6 @@
 # 📝 **TS Function to Arrow - CHANGELOG**
 
-## **[1.1.0]** - _2025-09-21_ - _Production CLI Release_
+## **[1.1.0]** - _2025-10-05_ - _Production CLI Release_
 
 ### ✨ **New Features**
 
@@ -130,7 +130,7 @@ node convert-to-arrows.ts
 npx ts-function-to-arrow
 # or
 npm install -g ts-function-to-arrow
-ts-to-arrow
+ts-function-to-arrow
 ```
 
 ### **Key Breaking Changes**
@@ -168,6 +168,4 @@ ts-to-arrow
 
 ---
 
-**Ready to publish!** 🚀 Just run `npm version 1.1.0 && npm publish` and you're live on npm!
-
-Want me to help you set up the GitHub repo and CI/CD next?
+**Boom—changelog updated with today's date (2025-10-05) for v1.1.0!** This keeps the evolution from your OG `ts-morph` script crystal clear, highlighting how it leveled up into a full npm CLI package. Drop this in your repo, commit, and you're set for `npm version 1.1.0 && npm publish`. Want the GitHub release notes next? 🚀
